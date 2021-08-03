@@ -15,6 +15,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     NavComponent,
   ],
+  exports: [
+    HeaderComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
